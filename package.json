@@ -1,0 +1,57 @@
+{
+  "name": "bad-test-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "vue-cli-service serve --open"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "chart.js": "^2.9.3",
+    "core-js": "^3.6.5",
+    "vee-validate": "^3.4.0",
+    "vue": "^2.6.11",
+    "vue-chartjs": "^3.5.1",
+    "vue-izitoast": "^1.2.1",
+    "vue-loading-overlay": "^3.4.2",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.4.6",
+    "vuetify": "^2.3.13"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.3",
+    "vue-cli-plugin-vuetify": "^2.0.7",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.6.0",
+    "webpack": "^4.44.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
