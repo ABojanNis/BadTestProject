@@ -86,7 +86,7 @@ export default {
           this.$emit("loading", true);
           setTimeout(() => {
             this.$emit("loading", false);
-            if (this.username !== "Admin") {
+            if (this.username !== "admin") {
               return this.$toast.error("Wrong username!");
             }
 
